@@ -8,7 +8,7 @@
  * @age: structure age element
  * @owner: structure owner element
  *
- * Return: Always 0
+ * Return: Void
 */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
