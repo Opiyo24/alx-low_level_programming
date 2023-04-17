@@ -5,7 +5,7 @@
 /**
  * print_dog - prints a new data structure named dog
  * @*d: The new structure name
- * 
+ *
  * Return: A s directed
 */
 
