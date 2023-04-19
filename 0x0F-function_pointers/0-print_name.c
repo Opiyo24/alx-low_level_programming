@@ -3,11 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - print_name
  * print_name - Function that prints a name as passed to it
  * @name: The name to print
  * @f:pointer to the function
- *
  * Return: Nothing
 */
 
