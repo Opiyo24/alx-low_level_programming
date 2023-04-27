@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
-* print_list – Function that prints all the elements pf a specified list
+* print_list – checks the code for Holberton school students
 * @h: list pointer to be printed
 * Return: the number of nodes printed
 */
