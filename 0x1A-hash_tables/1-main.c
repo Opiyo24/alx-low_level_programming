@@ -1,4 +1,3 @@
-julien@ubuntu:~/0x1A. Hash tables$ cat 1-main.c 
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>

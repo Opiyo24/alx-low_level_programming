@@ -1,16 +1,13 @@
 #include "hash_tables.h"
 
 /**
- * key_index - generates hash index using DJB2 function
+ * key_index - get index for key given
+ * @key: key (string) to hash
+ * @size: size of hash table
  *
- * @key: key passed
- * @suize: the size of the hash table
- * Return: key index
-*/
-
+ * Return: index of 'key' using djb2
+ */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
-	if (key == NULL || size == 0)
-		return (0);
 	return (hash_djb2(key) % size);
 }
